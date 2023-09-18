@@ -1,0 +1,35 @@
+Task 1 - Check if an array is sorted ascending
+    - Avem clasa com.java1.array.SortedArray.java care in constructor are 2 parametri nrElemParam si arayInputParam cititi de la tastatura, acestia
+    se vor transforma in nrElementeArray (int) si array(int[] - elementele vectorului). Elementele vectorului sunt extrase din string cu ajutorul StringTokenizer.
+    printArray() - afiseaza elementele matricei
+    isInAscOrder() - verifica daca elementele sunt in ordine crescatoare (daca oricare element din dreapta este mai mic decat anteriorul inseamna ca vectorul nu e in ordine crescatoare )
+
+    - Avem clasa com.java1.array.Main in care citim de la tastatura numarul de elemente si elementele  vectorului si afisam vectorul si daca este sau nu ordonat crescator .
+
+Task 2 - Reverse String
+    - Avem clasa com.java1.reverse.ReverseString in care avem metodele
+        - reverseTheString(String input) se formeaza un nou string cu fiecare litera luata de de la sfarsitul catre inceputul stringului initial
+        - reverseTheString2(String input) se foloseste metoda reverse() din clasa StringBuffer
+        - reverseTheString3(String input) se foloseste metoda reverse() din clasa StringBuilder
+        - reverseTheString4(String input) se foloseste un vector de char charArray si se imparte stringul input in doua se va completa charArray cu caraterele simetrice fata
+        de mediana sirului input.
+
+    - Avem clasa com.java1.reverse.Main care citeste sirul initial de la tastatura si rand pe rand afiseaza sirurile returnate de metodele de mai sus
+
+Task 3 - Change identities
+    - Avem clasa com.java1.change.Person care are doua campuri name si age
+
+    - Avem clasa com.java1.change.MakingChanges care are
+        - metoda changeIdentities(Person p1, Person p2) in care se face schimbarea intre cele doua persoane p1 , p2 prin schimbarea atributelor celor doua persoane
+        - metoda main in care se initializeaza persoanele si se afiseaza starea lor initiala si dupa schimbare
+
+Task 4 - Account Service (Interfaces)
+    - Pe langa clasele si interfata  deja implementate User,Account,AccountService avem si :
+    - Avem clasa com.java1.interfaces.AccountServiceImpl ce implementeaza interfata AccountService cu
+        - constructorul AccountService care initializaeaza vectorul accounts cu cel primit ca parametru
+        - findAccountByOwnerId(long id) care parcurge vectorul accounts si verifica daca exista un account cu id ul ownerului dat de parametrul id daca exista e returnat accountul
+        daca nu atunci e returnat null
+        - countAccountsWithBalanceGreaterThan(long value) parcurge vectorul accounts si calculeaza suma accounturilor care au balanta mai mare ca parametrul value
+
+    - Avem clasa com.java1.interfaces.Main in care avem initializat vectorul de accounts si de users si in care se cheama metodele findAccountByOwnerId(long id) si countAccountsWithBalanceGreaterThan(long value)
+

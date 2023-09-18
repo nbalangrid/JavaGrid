@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bde536a7-c7a3-4a1d-aa37-881976796c00" name="Default Changelist" comment="" />
+    <list default="true" id="bde536a7-c7a3-4a1d-aa37-881976796c00" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,5 +36,11 @@
       <updated>1695033013166</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="299" y="153" key="new project wizard" timestamp="1695033686521">
+      <screen x="0" y="25" width="1792" height="1018" />
+    </state>
+    <state x="299" y="153" key="new project wizard/1792.25.1920.1055/0.25.1792.1018@0.25.1792.1018" timestamp="1695033686521" />
   </component>
 </project>
